@@ -1,0 +1,32 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "v1.0.0 - Pack by Mittens4all - Automatically add a tag of a player's name when they first join",
+        "name": "Auto Tag",
+        "uuid": "85987dd7-8307-4e5d-b98a-97b20935f8d9",
+        "version": [ 1, 0, 0 ],
+        "min_engine_version": [ 1, 21, 100 ]
+    },
+    "modules": [
+        {
+            "description": "Scripts Module",
+            "type": "script",
+            "language": "javascript",
+            "uuid": "1a3e1233-8712-47b3-8cf3-3198fcaf05b5",
+            "entry": "scripts/main.js",
+            "version": [ 1, 0, 0 ]
+        }
+    ],
+    "dependencies": [ 
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.1.0"
+        }
+    ],
+    "metadata": {
+        "authors": [ "mittens4all" ],
+        "license": "MIT",
+        "url": "https://github.com/mittens4all/",
+        "product_type": "addon"
+    }
+}
