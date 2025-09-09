@@ -28,7 +28,7 @@ You can check a player's tags after they join by running the following command i
 
 ### NBT editor
 
-![Universal Minecraft Tool](/images/autotag_umt.png) 
+![Universal Minecraft Tool](/assets/images/autotag_umt.png) 
 
 ## Author
 
